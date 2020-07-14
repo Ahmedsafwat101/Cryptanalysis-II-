@@ -65,7 +65,7 @@ int main()
 
 	for (int i = 0; i < Plaintext.length(); i++)
 	{
-		// this condition will not happen in any case coz i am already add all the cahrachters
+		// this condition will not happen in any case coz i  already added all the cahrachters
 		if (convert.find(Plaintext[i]) == convert.end())
 		{
 			// pass 
